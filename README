@@ -1,0 +1,21 @@
+If you want to detect the lie in a live stream, run "lie_detect_stream.py" and use the camera of the device.
+
+If you want to detect the lie in an already captured video, run "lie_detect_video.py" and copy the path of the video in line 67 inside.
+cap = cv2.VideoCapture(## enter the path here ##)
+
+Once the video is complete, the result will be shown in the terminal.
+
+Now, input 'y' in the terminal to show more details about the lie detected
+
+
+Lie Detector v1.0
+-----------------
+
+Uses OpenCV, Mediapipe, fer(facial emotion recognition)
+
+1) Blink Rate
+2) Gaze Change
+3) Hand on Face
+4) Emotion Change
+
+by Dheeraj Dinesh
